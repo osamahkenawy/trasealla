@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Trasealla - Visa Services Website
+
+This is a [Next.js](https://nextjs.org) project for Trasealla, a leading visa services company based in UAE. The website provides comprehensive visa solutions including UAE visas, Schengen visas, Brazil visas, and international visa assistance.
+
+## Features
+
+- 🛂 **UAE Visa Services** - Tourist, business, and multiple entry visas
+- 🇪🇺 **Schengen Visa** - Expert assistance for all 27 European countries  
+- 🇧🇷 **Brazil Visa** - Complete Brazil visa solutions
+- 🌐 **International Visas** - UK, USA, Canada, and Asian countries
+- 🛡️ **Support Services** - Travel insurance, hotel booking, document translation
+- 📱 **Responsive Design** - Mobile-friendly interface
+- ⚡ **Fast Performance** - Built with Next.js 15 and React 19
 
 ## Getting Started
 

@@ -43,7 +43,11 @@ export default function Header1({ variant } : any ) {
           <div className="cs_main_header_in">
             <div className="cs_main_header_left">
             <Link className="cs_site_branding" href="/">
-                <Image src="/assets/img/logo/white-logo.svg" alt="img" width={213} height={55}   />
+            <Image src="/assets/img/logo/white-logo.svg" alt="img" width={213} height={55}   />
+                {/* <div className="brand-text">
+                  <h3 className="text-white mb-0 fw-bold">Trasealla</h3>
+                  <small className="text-white-50">Visa Services</small>
+                </div> */}
               </Link>
               </div>
               <div className="cs_main_header_center">
@@ -66,7 +70,7 @@ export default function Header1({ variant } : any ) {
                 <div className="main-button header-btn-1">
                 <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a>
                 <Link href="/contact" className='theme-btn'>
-                <span> Request A Quote <i className="bi bi-arrow-right"></i></span></Link>
+                <span> Get Visa Quote <i className="bi bi-arrow-right"></i></span></Link>
                   </div>
 
               </div>

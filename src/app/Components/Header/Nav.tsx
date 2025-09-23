@@ -33,6 +33,12 @@ export default function Nav({ setMobileToggle }) {
         </Link>
       </li>
 
+      <li>
+        <Link href="/visa-services" onClick={() => setMobileToggle(false)}>
+        Visa Services
+        </Link>
+      </li>
+
       <li className="menu-item-has-children">
         <Link href="/destination" onClick={() => setMobileToggle(false)}>
         Destination

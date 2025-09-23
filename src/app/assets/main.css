@@ -1,19 +1,98 @@
 /*
-Theme Name: Turmet 
+Theme Name: Trasealla 
 Author: themeservices
 Author URI: https://themeforest.net/user/themeservices
-Description: Turmet - Travel & Tour Agency Nextjs Template
+Description: Trasealla - Visa Services & Travel Agency Nextjs Template
 Version: 1.0.0
 */
 /*CSS Table Of Content Ends Here*/
+
+/* Visa Services Styles */
+.visa-services-hero {
+  background: linear-gradient(135deg, var(--theme) 0%, var(--theme-2) 100%);
+  color: white;
+}
+
+.visa-services-hero .section-title h2,
+.visa-services-hero .section-title .sub-title {
+  color: white;
+}
+
+.visa-services-hero .section-title p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.visa-type-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e9ecef;
+}
+
+.visa-type-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.process-timeline {
+  position: relative;
+}
+
+.process-timeline::before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--theme);
+}
+
+.step-circle {
+  width: 60px;
+  height: 60px;
+  background: var(--theme);
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+}
+
+.step-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step-card:hover {
+  transform: translateX(10px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.support-service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.support-service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.brand-text h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.brand-text small {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
 
 :root {
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #1CA8CB;
-  --theme-2: #113D48;
-  --header: #0A1F24;
+  --theme: #244066;
+  --theme-2: #F2421B;
+  --header: #244066;
   --text: #687179;
   --border: #E1E4E5;
   --border-2: #BDBDBD;
@@ -487,8 +566,8 @@ span {
 }
 .about-wrapper-2 .about-image .shape-image {
   position: absolute;
-  bottom: 50px;
-  left: -60px;
+  bottom: 0px;
+  left: -100px;
 }
 .about-wrapper-2 .about-image .shape-image img {
   border: 8px solid var(--white);
