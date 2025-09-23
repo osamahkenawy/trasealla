@@ -43,7 +43,7 @@ export default function Header1({ variant } : any ) {
           <div className="cs_main_header_in">
             <div className="cs_main_header_left">
             <Link className="cs_site_branding" href="/">
-            <Image src="/assets/img/logo/white-logo.svg" alt="img" width={213} height={55}   />
+            <Image src="/assets/img/logo/logo_in_navy.png" alt="img" width={213} height={55}   />
                 {/* <div className="brand-text">
                   <h3 className="text-white mb-0 fw-bold">Trasealla</h3>
                   <small className="text-white-50">Visa Services</small>
