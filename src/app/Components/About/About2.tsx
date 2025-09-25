@@ -19,7 +19,7 @@ const About2 = () => {
                                     <Image src="/assets/img/about/group.png" alt="img" width={170} height={50}   />
                                 </div>
                                 <div className="about-image-2">
-                                    <Image src="/assets/img/about/05.jpg" className="wow img-custom-anim-top" alt="img" width={284} height={411}   />
+                                    <Image src="/assets/img/about/passport.jpg" className="wow img-custom-anim-top" alt="img" width={284} height={411}   />
                                     <div className="plane-shape">
                                         <Image src="/assets/img/about/plane-shape2.png" alt="img" width={370} height={205}   />
                                     </div>
