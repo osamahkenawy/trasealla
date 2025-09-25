@@ -46,10 +46,12 @@ const SupportServices = () => {
         <section className="support-services py-5 bg-light">
             <div className="container">
                 <SectionTitle 
-                    title="Value-Added Support Services"
-                    subtitle="Complete Travel Solutions"
-                    description="Beyond visa processing, we provide comprehensive support services to ensure your travel experience is seamless and stress-free."
+                    Title="Value-Added Support Services"
+                    SubTitle="Complete Travel Solutions"
                 />
+                <p className="text-center text-muted mb-5">
+                    Beyond visa processing, we provide comprehensive support services to ensure your travel experience is seamless and stress-free.
+                </p>
                 <div className="row g-4">
                     {supportServices.map((service, index) => (
                         <div key={index} className="col-lg-4 col-md-6">

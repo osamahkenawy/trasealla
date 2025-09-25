@@ -2,7 +2,7 @@ import React from 'react';
 import HeroBanner2 from '../Components/HeroBanner/HeroBanner2';
 import About2 from '../Components/About/About2';
 import Counter1 from '../Components/Counter/Counter1';
-import Destination2 from '../Components/Destination/Destination2';
+import VisaServicesSlider from '../Components/Destination/Destination2';
 import Choose2 from '../Components/Choose/Choose2';
 import Story1 from '../Components/Story/Story1';
 import FeaturedTour1 from '../Components/FeaturedTour/FeaturedTour1';
@@ -17,7 +17,7 @@ const page = () => {
             <HeroBanner2></HeroBanner2>
             <About2></About2>
             <Counter1></Counter1>
-            <Destination2></Destination2>
+            <VisaServicesSlider></VisaServicesSlider>
             <Choose2></Choose2>
             <Story1></Story1>
             <FeaturedTour1></FeaturedTour1>
