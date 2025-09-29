@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "Home",
+    "homeVersion1": "Home Version 1",
+    "homeVersion2": "Home Version 2", 
+    "homeVersion3": "Home Version 3",
+    "aboutUs": "About Us",
+    "visaServices": "Visa Services",
+    "destination": "Destination",
+    "destinationDetails": "Destination Details",
+    "tour": "Tour",
+    "tourDetails": "Tour Details",
+    "pages": "Pages",
+    "activities": "Activities",
+    "activitiesDetails": "Activities Details",
+    "ourTeam": "Our Team",
+    "teamDetails": "Team Details",
+    "blog": "Blog",
+    "blogWithSidebar": "Blog With Sidebar",
+    "blogDetails": "Blog Details",
+    "contact": "Contact"
+  },
+  "header": {
+    "getVisaQuote": "Get Visa Quote",
+    "searchPlaceholder": "Search...",
+    "language": "Language"
+  },
+  "common": {
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "bookNow": "Book Now",
+    "getQuote": "Get Quote",
+    "exploreMore": "Explore More",
+    "discoverMore": "Discover More",
+    "learnMore": "Learn More"
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contactInfo": "Contact Info",
+    "followUs": "Follow Us",
+    "newsletter": "Newsletter",
+    "subscribeNewsletter": "Subscribe to our newsletter",
+    "enterEmail": "Enter your email",
+    "subscribe": "Subscribe",
+    "allRightsReserved": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions"
+  },
+  "seo": {
+    "title": "Turmet - Travel & Tour Agency NextJS Template",
+    "description": "Turmet - Travel & Tour Agency NextJS Template"
+  }
+}

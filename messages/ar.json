@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "homeVersion1": "الرئيسية الإصدار 1",
+    "homeVersion2": "الرئيسية الإصدار 2",
+    "homeVersion3": "الرئيسية الإصدار 3",
+    "aboutUs": "من نحن",
+    "visaServices": "خدمات التأشيرة",
+    "destination": "الوجهات",
+    "destinationDetails": "تفاصيل الوجهة",
+    "tour": "الجولات",
+    "tourDetails": "تفاصيل الجولة",
+    "pages": "الصفحات",
+    "activities": "الأنشطة",
+    "activitiesDetails": "تفاصيل الأنشطة",
+    "ourTeam": "فريقنا",
+    "teamDetails": "تفاصيل الفريق",
+    "blog": "المدونة",
+    "blogWithSidebar": "المدونة مع الشريط الجانبي",
+    "blogDetails": "تفاصيل المدونة",
+    "contact": "اتصل بنا"
+  },
+  "header": {
+    "getVisaQuote": "احصل على عرض سعر التأشيرة",
+    "searchPlaceholder": "البحث...",
+    "language": "اللغة"
+  },
+  "common": {
+    "readMore": "اقرأ المزيد",
+    "viewAll": "عرض الكل",
+    "bookNow": "احجز الآن",
+    "getQuote": "احصل على عرض سعر",
+    "exploreMore": "استكشف المزيد",
+    "discoverMore": "اكتشف المزيد",
+    "learnMore": "تعلم المزيد"
+  },
+  "footer": {
+    "aboutUs": "من نحن",
+    "quickLinks": "روابط سريعة",
+    "services": "الخدمات",
+    "contactInfo": "معلومات الاتصال",
+    "followUs": "تابعنا",
+    "newsletter": "النشرة الإخبارية",
+    "subscribeNewsletter": "اشترك في نشرتنا الإخبارية",
+    "enterEmail": "أدخل بريدك الإلكتروني",
+    "subscribe": "اشترك",
+    "allRightsReserved": "جميع الحقوق محفوظة",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsConditions": "الشروط والأحكام"
+  },
+  "seo": {
+    "title": "تورمت - قالب Next.js لوكالة السفر والسياحة",
+    "description": "تورمت - قالب Next.js لوكالة السفر والسياحة"
+  }
+}

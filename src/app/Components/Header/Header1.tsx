@@ -3,11 +3,14 @@ import { useEffect, useState } from 'react';
 import Nav from './Nav';
 import Link from 'next/link';
 import Image from 'next/image';
+// import { useTranslations } from 'next-intl';
+import LanguageSwitcher from '../Common/LanguageSwitcher';
 export default function Header1({ variant } : any ) {
   const [mobileToggle, setMobileToggle] = useState(false);
   const [isSticky, setIsSticky] = useState<string>("");
   const [prevScrollPos, setPrevScrollPos] = useState<number>(0);
   const [searchToggle, setSearchToggle] = useState(false);
+  // const t = useTranslations('header');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -67,6 +70,7 @@ export default function Header1({ variant } : any ) {
             </div>
             <div className="cs_main_header_right">
               <div className="header-btn d-flex align-items-center">
+                <LanguageSwitcher />
                 <div className="main-button header-btn-1">
                 <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a>
                 <Link href="/contact" className='theme-btn'>

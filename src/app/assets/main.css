@@ -7,6 +7,89 @@ Version: 1.0.0
 */
 /*CSS Table Of Content Ends Here*/
 
+/* RTL Support */
+.rtl-layout {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl-layout * {
+  font-family: 'Cairo', 'Manrope', sans-serif !important;
+}
+
+.rtl-layout .cs_nav_list {
+  direction: rtl;
+}
+
+.rtl-layout .cs_main_header_left {
+  order: 3;
+}
+
+.rtl-layout .cs_main_header_center {
+  order: 2;
+}
+
+.rtl-layout .cs_main_header_right {
+  order: 1;
+}
+
+.rtl-layout .cs_main_header_in {
+  flex-direction: row-reverse;
+}
+
+.rtl-layout .header-btn {
+  flex-direction: row-reverse;
+}
+
+.rtl-layout .language-switcher {
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+.rtl-layout .main-button {
+  margin-right: 15px;
+  margin-left: 0;
+}
+
+.rtl-layout .theme-btn i {
+  margin-left: 0;
+  margin-right: 8px;
+}
+
+.rtl-layout .cs_dropdown {
+  right: 0;
+  left: auto;
+}
+
+.rtl-layout .cs_dropdown ul {
+  text-align: right;
+}
+
+/* Language Switcher RTL Adjustments */
+.rtl-layout .language-switcher-trigger {
+  flex-direction: row-reverse;
+}
+
+.rtl-layout .language-dropdown {
+  right: 0;
+  left: auto;
+}
+
+/* Responsive RTL adjustments */
+@media (max-width: 991px) {
+  .rtl-layout .cs_main_header_in {
+    flex-direction: row;
+  }
+  
+  .rtl-layout .cs_main_header_left {
+    order: 1;
+  }
+  
+  .rtl-layout .cs_main_header_right {
+    order: 3;
+  }
+}
+
 /* Visa Services Styles */
 .visa-services-hero {
   background: linear-gradient(135deg, var(--theme) 0%, var(--theme-2) 100%);

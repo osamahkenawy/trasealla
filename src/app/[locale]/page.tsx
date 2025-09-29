@@ -1,0 +1,36 @@
+import React from 'react';
+import HeroBanner2 from '../Components/HeroBanner/HeroBanner2';
+import About2 from '../Components/About/About2';
+import Counter1 from '../Components/Counter/Counter1';
+import VisaServicesSlider from '../Components/Destination/Destination2';
+import Choose2 from '../Components/Choose/Choose2';
+import Story1 from '../Components/Story/Story1';
+import FeaturedTour1 from '../Components/FeaturedTour/FeaturedTour1';
+import Cta3 from '../Components/Cta/Cta3';
+import Testimonial2 from '../Components/Testimonial/Testimonial2';
+import Blog2 from '../Components/Blog/Blog2';
+import Instagram1 from '../Components/Instagram/Instagram1';
+import Header1 from '../Components/Header/Header1';
+import Footer1 from '../Components/Footer/Footer1';
+
+const HomePage = () => {
+    return (
+        <div className='main-page-area'>
+            <Header1></Header1>
+            <HeroBanner2></HeroBanner2>
+            <About2></About2>
+            <Counter1></Counter1>
+            <VisaServicesSlider></VisaServicesSlider>
+            <Choose2></Choose2>
+            <Story1></Story1>
+            <FeaturedTour1></FeaturedTour1>
+            <Cta3></Cta3>
+            <Testimonial2></Testimonial2>
+            <Blog2></Blog2>
+            <Instagram1></Instagram1>
+            <Footer1></Footer1>
+        </div>
+    );
+};
+
+export default HomePage;
