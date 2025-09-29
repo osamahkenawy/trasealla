@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import DropDown from './DropDown';
+// import LanguageSwitcher from '../Common/LanguageSwitcher';
 // import { useTranslations } from 'next-intl';
 
 export default function Nav({ setMobileToggle }) {
   // const t = useTranslations('nav');
   return (
     <ul className="cs_nav_list fw-medium">
-      <li className="menu-item-has-children">
+      {/* <li className="menu-item-has-children">
         <Link href="/">Home</Link>
         <DropDown>
           <ul>
@@ -27,7 +28,7 @@ export default function Nav({ setMobileToggle }) {
             </li>            
           </ul>
         </DropDown>
-      </li>
+      </li> */}
 
       <li>
         <Link href="/about" onClick={() => setMobileToggle(false)}>

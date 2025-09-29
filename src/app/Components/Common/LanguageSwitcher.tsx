@@ -90,16 +90,18 @@ export default function LanguageSwitcher() {
         .language-switcher-trigger {
           display: flex;
           align-items: center;
-          gap: 8px;
-          padding: 8px 12px;
+          gap: 6px;
+          padding: 6px 10px;
           background: rgba(255, 255, 255, 0.1);
           border: 1px solid rgba(255, 255, 255, 0.2);
-          border-radius: 8px;
+          border-radius: 6px;
           color: white;
-          font-size: 14px;
+          font-size: 13px;
           cursor: pointer;
           transition: all 0.3s ease;
-          min-width: 120px;
+          min-width: 100px;
+          white-space: nowrap;
+          flex-shrink: 0;
         }
         
         .language-switcher-trigger:hover {

@@ -69,14 +69,14 @@ export default function Header1({ variant } : any ) {
                 </div>
             </div>
             <div className="cs_main_header_right">
-              <div className="header-btn d-flex align-items-center">
+              <div className="header-btn d-flex align-items-center gap-3">
                 <LanguageSwitcher />
                 <div className="main-button header-btn-1">
-                <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a>
+                  
+                {/* <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a> */}
                 <Link href="/contact" className='theme-btn'>
                 <span> Get Visa Quote <i className="bi bi-arrow-right"></i></span></Link>
                   </div>
-
               </div>
             </div>
           </div>
