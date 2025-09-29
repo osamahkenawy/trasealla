@@ -4,7 +4,7 @@ import React from 'react';
 
 const Cta4 = () => {
     return (
-<section className="cta-section section-padding fix"> 
+        <section className="cta-section section-padding fix"> 
             <div className="container">
                 <div className="row g-4">
                     <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp wow" data-wow-delay=".3s">
